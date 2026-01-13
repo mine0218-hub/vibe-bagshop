@@ -1,0 +1,29 @@
+/* Tailwind CSS를 사용하므로 기존 CSS는 최소화합니다 */
+/* 추가적인 커스텀 스타일만 정의 */
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    background-color: #ffffff;
+    color: #1a1a1a;
+}
+
+canvas {
+    display: block;
+    outline: none;
+}
+
+.product-card:hover img {
+    transform: scale(1.05);
+}
+
+.btn-transition {
+    transition: all 0.3s ease;
+}
+
+#canvas-container {
+    cursor: grab;
+}
+
+#canvas-container:active {
+    cursor: grabbing;
+}
